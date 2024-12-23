@@ -1,2 +1,19 @@
-
-/* Your CSS Code here. */
+.item:first-child{
+	background-color:darkgreen;
+}
+.tem:last-child{
+	background-color:red;
+}
+.holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	margin-bottom:16px
+}
+.item{
+	font-size:28px;
+	font-weight:bold;
+	width:200px;
+	height:200px;
+	background-color:lightgoldenrodyellow
+}
